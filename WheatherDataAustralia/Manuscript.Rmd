@@ -114,7 +114,7 @@ Table: EAP estimates and CCI intervals for the regression parameters
 
 The intercept ($b_0$ = 2.42, $SE$ = 0.0046, CCI = [2.02; 2.83]) denotes that in a place with an average temperature of 0 degrees Celsius, the expected rainfall on one day is 2.42 ml. The predictor MaxTemp.cen ($b_1$ = -0.34, $SE$ = 0.0008, CCI = [-0.41; -0.27]) expresses that for every degree Celsius above the average temperature in a place, the expected rainfall on one day in that place is expected to decrease by 0.34 ml. The predictor MinTemp.cen ($b_2$ = 0.39, $SE$ = 0.0009, CCI = [0.32; 0.47]) expresses that for every degree above the average minimum temperature in a place, the expected rainfall on one day in that place is expected to increase by 0.39 ml. The interaction between the predictors ($b_3$ = -0.01, $SE$ = 0.0001, CCI = [-0.01; 0.001]) indicates that for every degree above the average minimum temperature in a place, the effect of the maximum temperature on the rainfall in that place decreases by 0.01 ml. Based on the CCI’s of the predictors, I can conclude that only the interaction can not be distinguished from 0. Therefore,  only the maximum temperature and the minimum temperature are reasonable predictors of the rainfall in a certain place. This is also the answer to the research question proposed in the introduction.
 
-All the code used to produce the results in this manuscript can be found on [\textcolor{blue}{this GitHub repository}](https://github.com/jakkermans).
+All the code used to produce the results in this manuscript can be found on [\textcolor{blue}{this GitHub repository}](https://github.com/jakkermans/WheatherDataAustralia).
 
 \newpage
 
